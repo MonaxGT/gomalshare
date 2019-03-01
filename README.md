@@ -5,13 +5,15 @@ MalShare client library
 ---------------------
 MalShare is a free Malware repository providing researchers access to samples, malicous feeds, and Yara results. 
 Link to Malshare: 
-* [Github](https://github.com/malshare)
-* [OfficialSite](http://www.malshare.com)
-* [Twitter](https://twitter.com/mal_share)
 
-## Usage example
+  * [github](https://github.com/malshare)
+  * [officialsite](http://www.malshare.com)
+  * [twitter](https://twitter.com/mal_share)
 
-```
+Usage example
+------------------------------------------------
+
+```sh
 go get -u github.com/MonaxGT/gomalshare
 ```
 
@@ -63,7 +65,6 @@ func main() {
 	for _, v := range *search {
 		fmt.Println(v.Md5)
 	}
-
 	// example upload file
 	filename := "test.test"
 	err = conf.UploadFile(filename)
@@ -79,4 +80,3 @@ func main() {
 	fmt.Println(string(file))
 }
 ```
-
