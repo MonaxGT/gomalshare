@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/53870d8fa2174624ad09895fb4fc2f1a)](https://app.codacy.com/app/MonaxGT/gomalshare?utm_source=github.com&utm_medium=referral&utm_content=MonaxGT/gomalshare&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/MonaxGT/gomalshare.svg?branch=master)](https://travis-ci.com/MonaxGT/gomalshare)
 [![Go Report Card](https://goreportcard.com/badge/github.com/MonaxGT/gomalshare)](https://goreportcard.com/report/github.com/MonaxGT/gomalshare)
 
