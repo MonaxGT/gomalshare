@@ -14,17 +14,20 @@ import (
 	"github.com/pkg/errors"
 )
 
+// LimitKey struct for unmarshal limits of API
 type LimitKey struct {
 	Limit     string `json:"limit,omitempty"`
 	Remaining string `json:"remaining,omitempty"`
 }
 
+// HashList struct for unmarshal general hash fields
 type HashList struct {
 	Md5    string `json:"md5,omitempty"`
 	Sha1   string `json:"sha1,omitempty"`
 	Sha256 string `json:"sha256,omitempty"`
 }
 
+// FileDetails unmarshal special fields
 type FileDetails struct {
 	HashList
 	Ssdeep  string   `json:"ssdeep,omitempty"`
@@ -32,12 +35,14 @@ type FileDetails struct {
 	Sources []string `json:"sources,omitempty"`
 }
 
+// Client main struct
 type Client struct {
 	apiKey string
 	url    string
 	conn   *http.Client
 }
 
+// SearchDetails return searching result
 type SearchDetails struct {
 	HashList
 	TypeSample string `json:"type,omitempty"`

@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/MonaxGT/gomalshare.svg?branch=master)](https://travis-ci.com/MonaxGT/gomalshare)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MonaxGT/gomalshare)](https://goreportcard.com/report/github.com/MonaxGT/gomalshare)
+
 MalShare client library 
 ---------------------
 MalShare is a free Malware repository providing researchers access to samples, malicous feeds, and Yara results. 
