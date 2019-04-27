@@ -56,7 +56,6 @@ func TestGetSearchResult(t *testing.T) {
 		}
 	}
 	t.Error("requested MD5 doesn't match result: ",testMd5)
-	return
 }
 
 func TestGetLimitKey(t *testing.T) {
@@ -73,7 +72,6 @@ func TestGetLimitKey(t *testing.T) {
 		return
 	}
 	t.Error("wrong response from API service")
-	return
 }
 
 func TestDownloadFileFromHash (t *testing.T) {
