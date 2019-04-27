@@ -8,15 +8,19 @@ MalShare client library
 MalShare is a free Malware repository providing researchers access to samples, malicous feeds, and Yara results. 
 Link to Malshare: 
 
-  *  [github](https://github.com/malshare)
-  *  [official site](http://www.malshare.com)
-  *  [twitter](https://twitter.com/mal_share)
+* [github](https://github.com/malshare)
+* [official site](http://www.malshare.com)
+* [twitter](https://twitter.com/mal_share)
 
 Usage example
 ------------------------------------------------
 
 ```sh
 go get -u github.com/MonaxGT/gomalshare
+```
+
+```sh
+go test -api APIKEY -url URL
 ```
 
 Simple example using library in cmd/gomalshare/main.go
