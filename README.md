@@ -17,6 +17,10 @@ Usage example
 go get -u github.com/MonaxGT/gomalshare
 ```
 
+```sh
+go test -api APIKEY -url URL
+```
+
 Simple example using library in cmd/gomalshare/main.go
 
 ```go
