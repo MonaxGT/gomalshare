@@ -182,4 +182,8 @@ func TestUploadFile(t *testing.T) {
 	if err != nil {
 		t.Error("can't upload file", err)
 	}
+	err = os.Remove("test.txt")
+	if err != nil {
+		t.Error("can't delete file", err)
+	}
 }
